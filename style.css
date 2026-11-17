@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: system-ui, sans-serif;
-  background: #f4f4f4;
+  background: #B3C478;
   color: #111;
 }
 
@@ -19,17 +19,29 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  text-align: center;
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 0.0005rem 0.0005rem;
+  font-size: 10rem;
+}
+
 main {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem 3rem;
+  padding: 3rem 3rem 9rem;
 }
 
 img {
   display: block;
-  max-width: 80vw;
-  max-height: 70vh;
+  max-width: 160vw;
+  max-height: 140vh;
   object-fit: contain;
 }
